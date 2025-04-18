@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Zeyada&display=swap");
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.template.net/96269/dark-purple-aesthetic-wallpaper-gklk0.jpg);
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.paper {
+  background-color: rgba(255, 255, 255, 0.85);
+  background-image: url(data:image/jpeg;base64,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);
+  background-size: cover;
+  background-position: center center;
+  padding: 20px 40px;
+  border-radius: 12px;
+  position: absolute;
+  border: 2px solid rgba(200, 200, 200, 0.6);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  /* Remove transform from CSS - it will be handled by JS now */
+  transition: box-shadow 0.2s ease;
+  cursor: grab;
+  user-select: none; /* Prevent text selection during drag */
+}
+
+.paper:hover {
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.paper:active {
+  cursor: grabbing;
+}
+
+.paper p {
+  font-family: "Zeyada", cursive;
+  font-size: 32px;
+  color: white;
+  margin: 10px 0;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+  user-select: none;
+}
+
+.paper.heart {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  border-radius: 90%;
+  /* background-image: url(https://png.pngtree.com/png-clipart/20220306/original/pngtree-circle-purple-flower-effect-png-image_7419687.png); */
+  /* background-color: rgba(255, 255, 255, 0.7); */
+  border: 1px solid rgba(255, 192, 203, 0.5);
+  animation: beat 1s infinite ease-in-out;
+}
+
+.paper.heart::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  opacity: 0.9;
+  pointer-events: none;
+  animation: beat 1s infinite ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Add this keyframes section for animation */
+@keyframes beat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  75% {
+    transform: scale(1.05);
+  }
+}
+
+/* Add this keyframes section for animation */
+@keyframes beat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  75% {
+    transform: scale(1.05);
+  }
+}
+
+.paper.image {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.paper.image p {
+  font-size: 26px;
+  margin: 5px 0;
+}
+
+img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  user-select: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  pointer-events: none; /* Prevent image from interfering with dragging */
+}
+
+/* Define rotation values that will be picked up by JS */
+.paper:nth-child(1) {
+  --rotation: -5;
+}
+.paper:nth-child(2) {
+  --rotation: 3;
+}
+.paper:nth-child(3) {
+  --rotation: -2;
+}
+.paper:nth-child(4) {
+  --rotation: 4;
+}
+.paper:nth-child(5) {
+  --rotation: -6;
+}
+.paper:nth-child(6) {
+  --rotation: 2;
+}
+.paper:nth-child(7) {
+  --rotation: -3;
+}
